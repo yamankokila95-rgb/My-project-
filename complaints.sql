@@ -1,0 +1,11 @@
+CREATE TABLE complaints(
+id INT AUTO_INCREMENT PRIMARY KEY,
+complaint_id VARCHAR(20),
+title VARCHAR(255),
+description TEXT,
+category VARCHAR(100),
+location VARCHAR(100),
+name VARCHAR(100),
+status VARCHAR(50),
+date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
